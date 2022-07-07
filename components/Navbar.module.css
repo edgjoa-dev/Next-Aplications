@@ -1,0 +1,22 @@
+
+
+.menu-container {
+    align-content: center;
+    background-color: #45494b;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    height: 3rem;
+    justify-content: flex-end;
+}
+.menu-container a {
+    align-items: center;
+    height: 100%;
+    padding: .6rem;
+}
+
+.menu-container a:hover{
+    background-color: #0a0a0a;
+    height: 100%;
+}
