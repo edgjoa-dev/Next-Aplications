@@ -8,12 +8,17 @@
     flex-direction: row;
     font-weight: bold;
     height: 3rem;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 .menu-container a {
     align-items: center;
+    border-radius: .3rem;
+    color: aliceblue;
+    display: flex;
     height: 100%;
     padding: .6rem;
+    transition: .3s ease-in-out ;
+
 }
 
 .menu-container a:hover{
